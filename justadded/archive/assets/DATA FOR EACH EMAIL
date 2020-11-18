@@ -1,0 +1,48 @@
+DATA FOR EACH EMAIL
+	ID
+	DATE
+	HTML CODE
+	TYPE OF EMAIL
+
+EMAIL TEMPLATES
+	ID
+	CATEGORY (NEW, REVIEW, ACCESSORY, BRANDS, YOUTUBE, MISSED)
+		SUB CATEGORY
+	HTML CODE
+
+
+FORM CONTENT
+	ITEMS
+	CHECK BOX TO ADD COUPON
+	ADD ADDITIONAL BANNER / HTML
+
+
+Index - NEED TO CREATE
+	New Product
+		1 Product
+		1 Product, Video, Accessories
+		2 Product
+		3 Product
+		4 Product
+		6 Product
+	Review
+		Review Product
+		Review (2 Product recommends)
+		Review (3 Product recommends)
+	Accessory
+		Accessory Recommend
+		Accessory Recommend (Coupon)
+		Accessory Recommend 3 Product
+		Accessory Recommend 3 Product (Coupon)
+		Accessory Recommend 6 Product
+		Accessory Recommend 6 Product (Coupon)
+	New Brand
+		3 Brands
+		4 Brands
+		6 Brands
+		9 Brands
+	YouTube
+		Featured and 3 most recent vids
+	We've Missed You
+
+		

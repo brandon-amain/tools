@@ -1,0 +1,7 @@
+[09-Jan-2019 15:34:45 UTC] PHP Warning:  require(includes/header.php): failed to open stream: No such file or directory in /home/jbagwevje53v/public_html/amain/NEW/index.php on line 2
+[09-Jan-2019 15:34:45 UTC] PHP Fatal error:  require(): Failed opening required 'includes/header.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/jbagwevje53v/public_html/amain/NEW/index.php on line 2
+[09-Jan-2019 15:34:56 UTC] PHP Notice:  Use of undefined constant year - assumed 'year' in /home/jbagwevje53v/public_html/amain/NEW/includes/footer.php on line 9
+[17-Jun-2019 18:49:04 UTC] PHP Notice:  Use of undefined constant year - assumed 'year' in /home/jbagwevje53v/public_html/amain/NEW/includes/footer.php on line 9
+[17-Jun-2019 18:50:05 UTC] PHP Notice:  Use of undefined constant year - assumed 'year' in /home/jbagwevje53v/public_html/amain/NEW/includes/footer.php on line 9
+[17-Jun-2019 19:02:06 UTC] PHP Notice:  Use of undefined constant year - assumed 'year' in /home/jbagwevje53v/public_html/amain/NEW/includes/footer.php on line 9
+[03-Jan-2020 01:03:14 UTC] PHP Warning:  Use of undefined constant year - assumed 'year' (this will throw an Error in a future version of PHP) in /home/jbagwevje53v/public_html/amain/NEW/includes/footer.php on line 9

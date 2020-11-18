@@ -1,0 +1,25 @@
+<?php
+include ("php/revive.php");
+include ("php/header.php");
+$buttonHost = $_GET['host'];
+
+echo "<h1 class='collapse-header'>" . $buttonHost . " External Banners</h1>";
+?>
+<!-- Collapsable Card Example -->
+              <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQbyJg_gbBQCGL_P2ZHRmOYDxR29dZ6jf1DldsROXJwrA95fjC1RanUkaDEy4jzV2Z7iUtxXES_TaIo/pubhtml?widget=true&amp;headers=false"></iframe>
+
+	
+<script>
+	let width = document.getElementById("banner-content").offsetWidth;
+	function myFunction(buttonHost, clickValue) {
+		let frameBeg = '<iframe frameborder="0" src="';
+		let frameEnd = '"></iframe>';
+		let output = 'frame.php?host=' + buttonHost + '&zone=' + clickValue;
+		console.log(output);
+		document.getElementById("banner-content").innerHTML = frameBeg + output + frameEnd;
+	}
+</script>
+
+<?php
+include ("php/footer.php");
+?>
